@@ -1,3 +1,41 @@
-h1, h2 {
-  color: blueviolet
+
+/*red rect*/
+.flag {
+  background-color: maroon;
+  height: 600px;
+  width: 900px;
+  position: relative;
+}
+
+/*blue rect*/
+.flag > div {
+  background-color: darkblue;
+  height: 300px;
+  width: 100%;
+  top: 150px;
+  position: absolute;
+}
+
+/* white circle */
+.flag > div > div {
+  background-color: white;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: relative;
+  align-items: center;
+  left: 350px;
+  top: 50px;
+}
+
+p {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+}
+
+div > div > div > p {
+  color: black;
+  
 }
