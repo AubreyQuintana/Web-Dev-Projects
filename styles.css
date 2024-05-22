@@ -1,41 +1,29 @@
+div {
+  display: inline-block;
+  width: 40%;
 
-/*red rect*/
-.flag {
-  background-color: maroon;
-  height: 600px;
-  width: 900px;
-  position: relative;
-}
-
-/*blue rect*/
-.flag > div {
-  background-color: darkblue;
-  height: 300px;
-  width: 100%;
-  top: 150px;
-  position: absolute;
-}
-
-/* white circle */
-.flag > div > div {
-  background-color: white;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  position: relative;
-  align-items: center;
-  left: 350px;
-  top: 50px;
 }
 
 p {
-  color: white;
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
+  font-size: 1em;
 }
 
-div > div > div > p {
-  color: black;
-  
+.cat {
+  background-color: aquamarine;
+}
+
+.dog {
+  background-color: coral;
+  float: right;
+}
+
+footer {
+  text-align: center;
+  background-color: blueviolet;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  float: left;
 }
