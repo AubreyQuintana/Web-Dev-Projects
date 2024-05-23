@@ -1,29 +1,78 @@
-div {
-  display: inline-block;
-  width: 40%;
-
+body {
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
 }
 
-p {
-  font-size: 1em;
+.main {
+  flex: 1;
 }
 
-.cat {
-  background-color: aquamarine;
+h1 {
+  font-size: 5rem;
+  text-align: center;
 }
 
-.dog {
-  background-color: coral;
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
   float: right;
+} 
+
+.creative {
+  color: darkblue
+}
+
+.tile-img {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    height: 200px;
+    width: 100%;
+    float: left;
+    display: inline;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
 }
 
 footer {
-  text-align: center;
-  background-color: blueviolet;
+  clear: both;
+  text-align: right;
+  color: darkblue;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-img {
-  width: 200px;
-  height: 150px;
-  float: left;
+h2 {
+  font-size: 2rem;
 }
